@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu1"
+        android:title="Dashboard"
+        android:enabled="true"
+        android:icon="@drawable/custom_menu"
+        app:showAsAction="always">
+
+    </item>
+    <item
+        android:id="@+id/menu2"
+        android:title="Việc của tôi"
+        android:enabled="true"
+        android:visible="true"
+        android:icon="@drawable/custom_menu3"
+        app:showAsAction="always">
+
+    </item>
+    <item
+        android:id="@+id/menu3"
+        android:title="Thông báo"
+        android:enabled="true"
+        android:icon="@drawable/custom_menu1"
+        app:showAsAction="always">
+
+    </item>
+    <item
+        android:id="@+id/menu4"
+        android:title="Tài khoản"
+        android:enabled="true"
+        android:icon="@drawable/custom_menu2"
+        app:showAsAction="always">
+    </item>
+</menu>
